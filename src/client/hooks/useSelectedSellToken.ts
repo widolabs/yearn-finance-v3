@@ -1,5 +1,3 @@
-import { keyBy } from 'lodash';
-
 import { useAppSelector } from '@hooks';
 import { selectDepositTokenOptionsByAsset, TokensSelectors } from '@store';
 import { GeneralLabView, GeneralVaultView, TokenView } from '@types';
